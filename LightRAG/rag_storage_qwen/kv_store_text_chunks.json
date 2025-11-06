@@ -1,0 +1,44 @@
+{
+  "chunk-78e6bda563e6bcdf7169e52a9bcb7c75": {
+    "tokens": 55,
+    "content": "LightRAG is a fast and simple RAG system.\n        It efficiently processes documents using graph-based retrieval.\n        It supports various LLMs and embedding models.\n        You can run it locally without OpenAI API.\n        The system uses knowledge graphs to enhance retrieval accuracy.",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-78e6bda563e6bcdf7169e52a9bcb7c75",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:908a6774a92e3c9ea9897d5a14d84495",
+      "default:extract:6c68c9e93b56ebe0add05b7148bbfb09"
+    ],
+    "create_time": 1762354302,
+    "update_time": 1762354329,
+    "_id": "chunk-78e6bda563e6bcdf7169e52a9bcb7c75"
+  },
+  "chunk-20d582a74a0d8914e4037704eee336f5": {
+    "tokens": 68,
+    "content": "LightRAG is a fast and simple RAG system.\n        It efficiently processes documents using graph-based retrieval.\n        It supports various LLMs and embedding models.\n        You can run it locally without OpenAI API.\n        The system uses knowledge graphs to enhance retrieval accuracy.\n        The system also supports custom reranking functions for advanced filtering.",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-20d582a74a0d8914e4037704eee336f5",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:8910c30c78153b97e43ad7fc264843b5",
+      "default:extract:2562ff593c84bde4979096df734d4bec"
+    ],
+    "create_time": 1762402209,
+    "update_time": 1762402248,
+    "_id": "chunk-20d582a74a0d8914e4037704eee336f5"
+  },
+  "chunk-d3c0a2284c1ce07fed6ca78076a2e7bc": {
+    "tokens": 133,
+    "content": "The Apollo 11 mission, launched on July 16, 1969, was the first manned mission to land on the Moon.\n        The crew consisted of Commander Neil Armstrong, Lunar Module Pilot Buzz Aldrin, and Command Module Pilot Michael Collins.\n        On July 20, 1969, Armstrong and Aldrin landed the lunar module 'Eagle' in Tranquility Base.\n        Armstrong was the first to step onto the lunar surface, famously saying, \"That's one small step for man, one giant leap for mankind.\"\n        Buzz Aldrin joined him shortly after. Michael Collins remained in orbit around the Moon in the command module 'Columbia'.",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-d3c0a2284c1ce07fed6ca78076a2e7bc",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:df3abe6f6ae8ec6948c0ad25cb274013",
+      "default:extract:456a421a6dd093fe2afe3ab1aa39f10f"
+    ],
+    "create_time": 1762403270,
+    "update_time": 1762403316,
+    "_id": "chunk-d3c0a2284c1ce07fed6ca78076a2e7bc"
+  }
+}

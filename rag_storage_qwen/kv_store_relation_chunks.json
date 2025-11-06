@@ -1,0 +1,47 @@
+{
+  "LightRAG<SEP>fast": {
+    "chunk_ids": [
+      "chunk-78e6bda563e6bcdf7169e52a9bcb7c75"
+    ],
+    "count": 1,
+    "create_time": 1762404563,
+    "update_time": 1762404563,
+    "_id": "LightRAG<SEP>fast"
+  },
+  "LightRAG<SEP>simple": {
+    "chunk_ids": [
+      "chunk-78e6bda563e6bcdf7169e52a9bcb7c75"
+    ],
+    "count": 1,
+    "create_time": 1762404563,
+    "update_time": 1762404563,
+    "_id": "LightRAG<SEP>simple"
+  },
+  "LightRAG<SEP>RAG": {
+    "chunk_ids": [
+      "chunk-78e6bda563e6bcdf7169e52a9bcb7c75"
+    ],
+    "count": 1,
+    "create_time": 1762404563,
+    "update_time": 1762404563,
+    "_id": "LightRAG<SEP>RAG"
+  },
+  "LightRAG<SEP>document": {
+    "chunk_ids": [
+      "chunk-78e6bda563e6bcdf7169e52a9bcb7c75"
+    ],
+    "count": 1,
+    "create_time": 1762404563,
+    "update_time": 1762404563,
+    "_id": "LightRAG<SEP>document"
+  },
+  "LightRAG<SEP>graph-based retrieval": {
+    "chunk_ids": [
+      "chunk-78e6bda563e6bcdf7169e52a9bcb7c75"
+    ],
+    "count": 1,
+    "create_time": 1762404563,
+    "update_time": 1762404563,
+    "_id": "LightRAG<SEP>graph-based retrieval"
+  }
+}

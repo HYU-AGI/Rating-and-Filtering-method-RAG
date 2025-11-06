@@ -1,0 +1,30 @@
+{
+  "doc-78e6bda563e6bcdf7169e52a9bcb7c75": {
+    "relation_pairs": [
+      [
+        "LightRAG",
+        "document"
+      ],
+      [
+        "LightRAG",
+        "fast"
+      ],
+      [
+        "LightRAG",
+        "simple"
+      ],
+      [
+        "LightRAG",
+        "RAG"
+      ],
+      [
+        "LightRAG",
+        "graph-based retrieval"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1762404563,
+    "update_time": 1762404563,
+    "_id": "doc-78e6bda563e6bcdf7169e52a9bcb7c75"
+  }
+}

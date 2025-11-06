@@ -1,0 +1,23 @@
+{
+  "doc-78e6bda563e6bcdf7169e52a9bcb7c75": {
+    "content": "LightRAG is a fast and simple RAG system.\n        It efficiently processes documents using graph-based retrieval.\n        It supports various LLMs and embedding models.\n        You can run it locally without OpenAI API.\n        The system uses knowledge graphs to enhance retrieval accuracy.",
+    "file_path": "unknown_source",
+    "create_time": 1762354302,
+    "update_time": 1762354302,
+    "_id": "doc-78e6bda563e6bcdf7169e52a9bcb7c75"
+  },
+  "doc-20d582a74a0d8914e4037704eee336f5": {
+    "content": "LightRAG is a fast and simple RAG system.\n        It efficiently processes documents using graph-based retrieval.\n        It supports various LLMs and embedding models.\n        You can run it locally without OpenAI API.\n        The system uses knowledge graphs to enhance retrieval accuracy.\n        The system also supports custom reranking functions for advanced filtering.",
+    "file_path": "unknown_source",
+    "create_time": 1762402169,
+    "update_time": 1762402169,
+    "_id": "doc-20d582a74a0d8914e4037704eee336f5"
+  },
+  "doc-d3c0a2284c1ce07fed6ca78076a2e7bc": {
+    "content": "The Apollo 11 mission, launched on July 16, 1969, was the first manned mission to land on the Moon.\n        The crew consisted of Commander Neil Armstrong, Lunar Module Pilot Buzz Aldrin, and Command Module Pilot Michael Collins.\n        On July 20, 1969, Armstrong and Aldrin landed the lunar module 'Eagle' in Tranquility Base.\n        Armstrong was the first to step onto the lunar surface, famously saying, \"That's one small step for man, one giant leap for mankind.\"\n        Buzz Aldrin joined him shortly after. Michael Collins remained in orbit around the Moon in the command module 'Columbia'.",
+    "file_path": "unknown_source",
+    "create_time": 1762403168,
+    "update_time": 1762403168,
+    "_id": "doc-d3c0a2284c1ce07fed6ca78076a2e7bc"
+  }
+}

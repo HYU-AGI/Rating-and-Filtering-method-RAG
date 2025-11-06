@@ -1,0 +1,94 @@
+{
+  "doc-78e6bda563e6bcdf7169e52a9bcb7c75": {
+    "relation_pairs": [
+      [
+        "LLM",
+        "OpenAI"
+      ],
+      [
+        "LLM",
+        "LightRAG"
+      ],
+      [
+        "Claude",
+        "OpenAI"
+      ],
+      [
+        "LightRAG",
+        "knowledge graph"
+      ],
+      [
+        "LightRAG",
+        "embedding model"
+      ],
+      [
+        "LightRAG",
+        "RAG"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1762354330,
+    "update_time": 1762354330,
+    "_id": "doc-78e6bda563e6bcdf7169e52a9bcb7c75"
+  },
+  "doc-20d582a74a0d8914e4037704eee336f5": {
+    "relation_pairs": [
+      [
+        "Knowledge Graph",
+        "LightRAG"
+      ],
+      [
+        "LightRAG",
+        "Simple"
+      ],
+      [
+        "LightRAG",
+        "RER"
+      ],
+      [
+        "Fast",
+        "LightRAG"
+      ],
+      [
+        "Custom Reranking Functions",
+        "LightRAG"
+      ],
+      [
+        "LightRAG",
+        "RAG System"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1762402248,
+    "update_time": 1762402248,
+    "_id": "doc-20d582a74a0d8914e4037704eee336f5"
+  },
+  "doc-d3c0a2284c1ce07fed6ca78076a2e7bc": {
+    "relation_pairs": [
+      [
+        "Apollo 11 Mission",
+        "Tranquility Base"
+      ],
+      [
+        "Apollo 11 Mission",
+        "July 20, 1969"
+      ],
+      [
+        "Apollo 11 Mission",
+        "Command Module Columbia"
+      ],
+      [
+        "Command Module Columbia",
+        "Neil Armstrong"
+      ],
+      [
+        "Apollo 11 Mission",
+        "July 16, 1969"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1762403317,
+    "update_time": 1762403317,
+    "_id": "doc-d3c0a2284c1ce07fed6ca78076a2e7bc"
+  }
+}

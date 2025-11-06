@@ -1,0 +1,388 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d13" for="edge" attr.name="truncate" attr.type="string" />
+  <key id="d12" for="edge" attr.name="created_at" attr.type="long" />
+  <key id="d11" for="edge" attr.name="file_path" attr.type="string" />
+  <key id="d10" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d9" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d8" for="edge" attr.name="description" attr.type="string" />
+  <key id="d7" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d6" for="node" attr.name="truncate" attr.type="string" />
+  <key id="d5" for="node" attr.name="created_at" attr.type="long" />
+  <key id="d4" for="node" attr.name="file_path" attr.type="string" />
+  <key id="d3" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d2" for="node" attr.name="description" attr.type="string" />
+  <key id="d1" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_id" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="LightRAG">
+      <data key="d0">LightRAG</data>
+      <data key="d1">artifact</data>
+      <data key="d2">LightRAG is a fast and simple RAG system designed for efficient document processing and retrieval.&lt;SEP&gt;LightRAG is a document processing system designed for efficient retrieval using RAG methods.|</data>
+      <data key="d3">chunk-78e6bda563e6bcdf7169e52a9bcb7c75&lt;SEP&gt;chunk-20d582a74a0d8914e4037704eee336f5</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762402248</data>
+      <data key="d6" />
+    </node>
+    <node id="RAG">
+      <data key="d0">RAG</data>
+      <data key="d1">concept</data>
+      <data key="d2">RAG stands for Retrieval-Augmented Generation, a technique combining retrieval with generation methods.</data>
+      <data key="d3">chunk-78e6bda563e6bcdf7169e52a9bcb7c75</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762354329</data>
+      <data key="d6" />
+    </node>
+    <node id="LLM">
+      <data key="d0">LLM</data>
+      <data key="d1">method</data>
+      <data key="d2">LLMs (Large Language Models) refer to sophisticated AI systems capable of understanding natural language and generating human-like responses.</data>
+      <data key="d3">chunk-78e6bda563e6bcdf7169e52a9bcb7c75</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762354329</data>
+      <data key="d6" />
+    </node>
+    <node id="embedding model">
+      <data key="d0">embedding model</data>
+      <data key="d1">model</data>
+      <data key="d2">Embedding models convert text data into numerical vectors representing semantic meanings.</data>
+      <data key="d3">chunk-78e6bda563e6bcdf7169e52a9bcb7c75</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762354329</data>
+      <data key="d6" />
+    </node>
+    <node id="Knowledge Graph">
+      <data key="d0">Knowledge Graph</data>
+      <data key="d1">technology</data>
+      <data key="d2">A knowledge graph is a structured representation of information, linking entities through interconnected nodes and edges.&lt;SEP&gt;LightRAG utilizes knowledge graphs to improve the accuracy of its retrieval operations.|</data>
+      <data key="d3">chunk-78e6bda563e6bcdf7169e52a9bcb7c75&lt;SEP&gt;chunk-20d582a74a0d8914e4037704eee336f5</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762402248</data>
+      <data key="d6" />
+    </node>
+    <node id="OpenAI">
+      <data key="d0">OpenAI</data>
+      <data key="d1">organization</data>
+      <data key="d2">OpenAI is known for developing AI-driven products like DALL-E and Claude.</data>
+      <data key="d3">chunk-78e6bda563e6bcdf7169e52a9bcb7c75</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762354329</data>
+      <data key="d6" />
+    </node>
+    <node id="Claude">
+      <data key="d0">Claude</data>
+      <data key="d3">chunk-78e6bda563e6bcdf7169e52a9bcb7c75</data>
+      <data key="d2">Claude is a highly advanced AI model developed by OpenAI, showcasing future possibilities in AI research.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762354329</data>
+      <data key="d6" />
+    </node>
+    <node id="knowledge graph">
+      <data key="d0">knowledge graph</data>
+      <data key="d3">chunk-78e6bda563e6bcdf7169e52a9bcb7c75</data>
+      <data key="d2">Utilizing knowledge graphs enhances LightRAG’s ability to retrieve accurate information.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762354330</data>
+      <data key="d6" />
+    </node>
+    <node id="Fast">
+      <data key="d0">Fast</data>
+      <data key="d1">concept</data>
+      <data key="d2">The term "fast" describes LightRAG's efficiency in processing documents.|</data>
+      <data key="d3">chunk-20d582a74a0d8914e4037704eee336f5</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762402248</data>
+      <data key="d6" />
+    </node>
+    <node id="Simple">
+      <data key="d0">Simple</data>
+      <data key="d1">concept</data>
+      <data key="d2">LightRAG is described as simple, suggesting ease of implementation or use.|</data>
+      <data key="d3">chunk-20d582a74a0d8914e4037704eee336f5</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762402248</data>
+      <data key="d6" />
+    </node>
+    <node id="RAG System">
+      <data key="d0">RAG System</data>
+      <data key="d1">artifact</data>
+      <data key="d2">RAG stands for Retrieval-Augmented Generation, referring to systems that combine retrieval techniques with generative AI.|</data>
+      <data key="d3">chunk-20d582a74a0d8914e4037704eee336f5</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762402248</data>
+      <data key="d6" />
+    </node>
+    <node id="Graph-Based Retrieval">
+      <data key="d0">Graph-Based Retrieval</data>
+      <data key="d1">methodology</data>
+      <data key="d2">Graph-based retrieval is a technique used by LightRAG for efficient data processing.|</data>
+      <data key="d3">chunk-20d582a74a0d8914e4037704eee336f5</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762402248</data>
+      <data key="d6" />
+    </node>
+    <node id="Local Execution">
+      <data key="d0">Local Execution</data>
+      <data key="d1">operational</data>
+      <data key="d2">LightRAG can be executed locally without requiring access to OpenAI APIs.|</data>
+      <data key="d3">chunk-20d582a74a0d8914e4037704eee336f5</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762402248</data>
+      <data key="d6" />
+    </node>
+    <node id="Custom Reranking Functions">
+      <data key="d0">Custom Reranking Functions</data>
+      <data key="d1">enhancement</data>
+      <data key="d2">The system includes support for custom reranking functions for advanced filtering purposes.|</data>
+      <data key="d3">chunk-20d582a74a0d8914e4037704eee336f5</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762402248</data>
+      <data key="d6" />
+    </node>
+    <node id="Relation">
+      <data key="d0">Relation</data>
+      <data key="d1">relation</data>
+      <data key="d2">The incorporation of a knowledge graph enhances LightRAG's ability to retrieve accurate results.|&lt;SEP&gt;The rapid processing capability of LightRAG aligns with its "fast" designation.|&lt;SEP&gt;Customizable reranking functions offer greater customization options for users.|&lt;SEP&gt;LightRAG represents a system combining retrieval and generation techniques.|</data>
+      <data key="d3">chunk-20d582a74a0d8914e4037704eee336f5</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762402248</data>
+      <data key="d6" />
+    </node>
+    <node id="RER">
+      <data key="d0">RER</data>
+      <data key="d3">chunk-20d582a74a0d8914e4037704eee336f5</data>
+      <data key="d2">The mention of "RER" suggests LightRAG incorporates retrieval augmentation features.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762402248</data>
+      <data key="d6" />
+    </node>
+    <node id="Apollo 11 Mission">
+      <data key="d0">Apollo 11 Mission</data>
+      <data key="d1">event</data>
+      <data key="d2">The Apollo 11 mission is a historical event related to space exploration.</data>
+      <data key="d3">chunk-d3c0a2284c1ce07fed6ca78076a2e7bc</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762403316</data>
+      <data key="d6" />
+    </node>
+    <node id="Neil Armstrong">
+      <data key="d0">Neil Armstrong</data>
+      <data key="d1">person</data>
+      <data key="d2">Neil Armstrong was the commander of the Apollo 11 mission.</data>
+      <data key="d3">chunk-d3c0a2284c1ce07fed6ca78076a2e7bc</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762403316</data>
+      <data key="d6" />
+    </node>
+    <node id="Buzz Aldrin">
+      <data key="d0">Buzz Aldrin</data>
+      <data key="d1">person</data>
+      <data key="d2">Buzz Aldrin was a member of the Apollo 11 mission crew alongside Neil Armstrong.</data>
+      <data key="d3">chunk-d3c0a2284c1ce07fed6ca78076a2e7bc</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762403316</data>
+      <data key="d6" />
+    </node>
+    <node id="Michael Collins">
+      <data key="d0">Michael Collins</data>
+      <data key="d1">person</data>
+      <data key="d2">Michael Collins was the command module pilot of the Apollo 11 mission.</data>
+      <data key="d3">chunk-d3c0a2284c1ce07fed6ca78076a2e7bc</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762403316</data>
+      <data key="d6" />
+    </node>
+    <node id="Tranquility Base">
+      <data key="d0">Tranquility Base</data>
+      <data key="d1">location</data>
+      <data key="d2">Tranquility Base is where the Apollo 11 lunar module landed.</data>
+      <data key="d3">chunk-d3c0a2284c1ce07fed6ca78076a2e7bc</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762403316</data>
+      <data key="d6" />
+    </node>
+    <node id="Command Module Columbia">
+      <data key="d0">Command Module Columbia</data>
+      <data key="d1">artifact</data>
+      <data key="d2">The command module 'Columbia' orbited the Moon during the Apollo 11 mission.</data>
+      <data key="d3">chunk-d3c0a2284c1ce07fed6ca78076a2e7bc</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762403316</data>
+      <data key="d6" />
+    </node>
+    <node id="July 16, 1969">
+      <data key="d0">July 16, 1969</data>
+      <data key="d3">chunk-d3c0a2284c1ce07fed6ca78076a2e7bc</data>
+      <data key="d2">The Apollo 11 mission was launched on July 16, 1969.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762403317</data>
+      <data key="d6" />
+    </node>
+    <node id="July 20, 1969">
+      <data key="d0">July 20, 1969</data>
+      <data key="d3">chunk-d3c0a2284c1ce07fed6ca78076a2e7bc</data>
+      <data key="d2">Armstrong stepped onto the lunar surface on July 20, 1969.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762403317</data>
+      <data key="d6" />
+    </node>
+    <edge source="LightRAG" target="RAG">
+      <data key="d7">1.0</data>
+      <data key="d8">LightRAG integrates RAG techniques for improved retrieval efficiency.</data>
+      <data key="d9">related concept,technology</data>
+      <data key="d10">chunk-78e6bda563e6bcdf7169e52a9bcb7c75</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1762354329</data>
+      <data key="d13" />
+    </edge>
+    <edge source="LightRAG" target="LLM">
+      <data key="d7">1.0</data>
+      <data key="d8">LightRAG leverages LLMs for enhanced functionality.</data>
+      <data key="d9">integration,supported method</data>
+      <data key="d10">chunk-78e6bda563e6bcdf7169e52a9bcb7c75</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1762354329</data>
+      <data key="d13" />
+    </edge>
+    <edge source="LightRAG" target="embedding model">
+      <data key="d7">1.0</data>
+      <data key="d8">LightRAG incorporates embedding models to improve search accuracy.</data>
+      <data key="d9">model integration</data>
+      <data key="d10">chunk-78e6bda563e6bcdf7169e52a9bcb7c75</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1762354329</data>
+      <data key="d13" />
+    </edge>
+    <edge source="LightRAG" target="knowledge graph">
+      <data key="d7">1.0</data>
+      <data key="d8">Utilizing knowledge graphs enhances LightRAG’s ability to retrieve accurate information.</data>
+      <data key="d9">enhanced retrieval</data>
+      <data key="d10">chunk-78e6bda563e6bcdf7169e52a9bcb7c75</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1762354330</data>
+      <data key="d13" />
+    </edge>
+    <edge source="LightRAG" target="RAG System">
+      <data key="d7">1.0</data>
+      <data key="d8">LightRAG represents a system combining retrieval and generation techniques.</data>
+      <data key="d9">functionality,system concept</data>
+      <data key="d10">chunk-20d582a74a0d8914e4037704eee336f5</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1762402248</data>
+      <data key="d13" />
+    </edge>
+    <edge source="LightRAG" target="Fast">
+      <data key="d7">1.0</data>
+      <data key="d8">The rapid processing capability of LightRAG aligns with its "fast" designation.</data>
+      <data key="d9">efficiency,system characteristic</data>
+      <data key="d10">chunk-20d582a74a0d8914e4037704eee336f5</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1762402248</data>
+      <data key="d13" />
+    </edge>
+    <edge source="LightRAG" target="Simple">
+      <data key="d7">1.0</data>
+      <data key="d8">LightRAG is characterized as simple, implying user-friendly design.</data>
+      <data key="d9">simplicity,system characteristics</data>
+      <data key="d10">chunk-20d582a74a0d8914e4037704eee336f5</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1762402248</data>
+      <data key="d13" />
+    </edge>
+    <edge source="LightRAG" target="RER">
+      <data key="d7">1.0</data>
+      <data key="d8">The mention of "RER" suggests LightRAG incorporates retrieval augmentation features.</data>
+      <data key="d9">system feature,technical advancement</data>
+      <data key="d10">chunk-20d582a74a0d8914e4037704eee336f5</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1762402248</data>
+      <data key="d13" />
+    </edge>
+    <edge source="LightRAG" target="Knowledge Graph">
+      <data key="d7">1.0</data>
+      <data key="d8">The incorporation of a knowledge graph enhances LightRAG's ability to retrieve accurate results.</data>
+      <data key="d9">enhancement,system integration</data>
+      <data key="d10">chunk-20d582a74a0d8914e4037704eee336f5</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1762402248</data>
+      <data key="d13" />
+    </edge>
+    <edge source="LightRAG" target="Custom Reranking Functions">
+      <data key="d7">1.0</data>
+      <data key="d8">Customizable reranking functions offer greater customization options for users.</data>
+      <data key="d9">flexibility,system improvement</data>
+      <data key="d10">chunk-20d582a74a0d8914e4037704eee336f5</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1762402248</data>
+      <data key="d13" />
+    </edge>
+    <edge source="LLM" target="OpenAI">
+      <data key="d7">1.0</data>
+      <data key="d8">OpenAI's development of AI tools demonstrates advancements in generative AI.</data>
+      <data key="d9">innovative application</data>
+      <data key="d10">chunk-78e6bda563e6bcdf7169e52a9bcb7c75</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1762354329</data>
+      <data key="d13" />
+    </edge>
+    <edge source="OpenAI" target="Claude">
+      <data key="d7">1.0</data>
+      <data key="d8">Claude is a highly advanced AI model developed by OpenAI, showcasing future possibilities in AI research.</data>
+      <data key="d9">advanced AI tool</data>
+      <data key="d10">chunk-78e6bda563e6bcdf7169e52a9bcb7c75</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1762354329</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Apollo 11 Mission" target="July 16, 1969">
+      <data key="d7">1.0</data>
+      <data key="d8">The Apollo 11 mission was launched on July 16, 1969.</data>
+      <data key="d9">date</data>
+      <data key="d10">chunk-d3c0a2284c1ce07fed6ca78076a2e7bc</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1762403317</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Apollo 11 Mission" target="July 20, 1969">
+      <data key="d7">1.0</data>
+      <data key="d8">Armstrong stepped onto the lunar surface on July 20, 1969.</data>
+      <data key="d9">date</data>
+      <data key="d10">chunk-d3c0a2284c1ce07fed6ca78076a2e7bc</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1762403317</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Apollo 11 Mission" target="Tranquility Base">
+      <data key="d7">1.0</data>
+      <data key="d8">The landing occurred at Tranquility Base.</data>
+      <data key="d9">landing site</data>
+      <data key="d10">chunk-d3c0a2284c1ce07fed6ca78076a2e7bc</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1762403317</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Apollo 11 Mission" target="Command Module Columbia">
+      <data key="d7">1.0</data>
+      <data key="d8">During the mission, Collins remained in orbit around the Moon in the command module 'Columbia'.</data>
+      <data key="d9">orbit</data>
+      <data key="d10">chunk-d3c0a2284c1ce07fed6ca78076a2e7bc</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1762403317</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Neil Armstrong" target="Command Module Columbia">
+      <data key="d7">1.0</data>
+      <data key="d8">Armstrong was a crew member of the command module 'Columbia'.</data>
+      <data key="d9">crew member</data>
+      <data key="d10">chunk-d3c0a2284c1ce07fed6ca78076a2e7bc</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1762403317</data>
+      <data key="d13" />
+    </edge>
+  </graph>
+</graphml>

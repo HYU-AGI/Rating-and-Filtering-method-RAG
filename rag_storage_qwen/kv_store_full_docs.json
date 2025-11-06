@@ -1,0 +1,16 @@
+{
+  "doc-78e6bda563e6bcdf7169e52a9bcb7c75": {
+    "content": "LightRAG is a fast and simple RAG system.\n        It efficiently processes documents using graph-based retrieval.\n        It supports various LLMs and embedding models.\n        You can run it locally without OpenAI API.\n        The system uses knowledge graphs to enhance retrieval accuracy.",
+    "file_path": "unknown_source",
+    "create_time": 1762404536,
+    "update_time": 1762404536,
+    "_id": "doc-78e6bda563e6bcdf7169e52a9bcb7c75"
+  },
+  "doc-fbf1ce06381029fb21763401cae919a9": {
+    "content": "LightRAG is a fast and simple RAG system.\nIt efficiently processes documents using graph-based retrieval.\nIt supports various LLMs and embedding models.\nYou can run it locally without an OpenAI API.\nThe system uses knowledge graphs to enhance retrieval accuracy.\nThe system also supports custom reranking functions for advanced filtering.\nNetflix was founded by Reed Hastings and Marc Randolph.\nNetflix introduced streaming in 2007.\n\"House of Cards\" was the first major original series in 2013.",
+    "file_path": "unknown_source",
+    "create_time": 1762404921,
+    "update_time": 1762404921,
+    "_id": "doc-fbf1ce06381029fb21763401cae919a9"
+  }
+}

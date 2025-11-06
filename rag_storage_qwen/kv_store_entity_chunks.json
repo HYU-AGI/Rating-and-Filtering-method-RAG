@@ -1,0 +1,200 @@
+{
+  "LightRAG": {
+    "chunk_ids": [
+      "chunk-78e6bda563e6bcdf7169e52a9bcb7c75",
+      "chunk-fbf1ce06381029fb21763401cae919a9"
+    ],
+    "count": 2,
+    "update_time": 1762404963,
+    "_id": "LightRAG"
+  },
+  "fast": {
+    "chunk_ids": [
+      "chunk-78e6bda563e6bcdf7169e52a9bcb7c75"
+    ],
+    "count": 1,
+    "create_time": 1762404563,
+    "update_time": 1762404563,
+    "_id": "fast"
+  },
+  "simple": {
+    "chunk_ids": [
+      "chunk-78e6bda563e6bcdf7169e52a9bcb7c75"
+    ],
+    "count": 1,
+    "create_time": 1762404563,
+    "update_time": 1762404563,
+    "_id": "simple"
+  },
+  "RAG": {
+    "chunk_ids": [
+      "chunk-78e6bda563e6bcdf7169e52a9bcb7c75"
+    ],
+    "count": 1,
+    "create_time": 1762404563,
+    "update_time": 1762404563,
+    "_id": "RAG"
+  },
+  "document": {
+    "chunk_ids": [
+      "chunk-78e6bda563e6bcdf7169e52a9bcb7c75"
+    ],
+    "count": 1,
+    "create_time": 1762404563,
+    "update_time": 1762404563,
+    "_id": "document"
+  },
+  "graph-based retrieval": {
+    "chunk_ids": [
+      "chunk-78e6bda563e6bcdf7169e52a9bcb7c75"
+    ],
+    "count": 1,
+    "create_time": 1762404563,
+    "update_time": 1762404563,
+    "_id": "graph-based retrieval"
+  },
+  "LLM": {
+    "chunk_ids": [
+      "chunk-78e6bda563e6bcdf7169e52a9bcb7c75"
+    ],
+    "count": 1,
+    "create_time": 1762404563,
+    "update_time": 1762404563,
+    "_id": "LLM"
+  },
+  "embedding models": {
+    "chunk_ids": [
+      "chunk-78e6bda563e6bcdf7169e52a9bcb7c75"
+    ],
+    "count": 1,
+    "create_time": 1762404563,
+    "update_time": 1762404563,
+    "_id": "embedding models"
+  },
+  "local": {
+    "chunk_ids": [
+      "chunk-78e6bda563e6bcdf7169e52a9bcb7c75"
+    ],
+    "count": 1,
+    "create_time": 1762404563,
+    "update_time": 1762404563,
+    "_id": "local"
+  },
+  "OpenAI API": {
+    "chunk_ids": [
+      "chunk-78e6bda563e6bcdf7169e52a9bcb7c75"
+    ],
+    "count": 1,
+    "create_time": 1762404563,
+    "update_time": 1762404563,
+    "_id": "OpenAI API"
+  },
+  "knowledge graphs": {
+    "chunk_ids": [
+      "chunk-78e6bda563e6bcdf7169e52a9bcb7c75"
+    ],
+    "count": 1,
+    "create_time": 1762404563,
+    "update_time": 1762404563,
+    "_id": "knowledge graphs"
+  },
+  "Reed Hastings": {
+    "chunk_ids": [
+      "chunk-fbf1ce06381029fb21763401cae919a9"
+    ],
+    "count": 1,
+    "create_time": 1762404963,
+    "update_time": 1762404963,
+    "_id": "Reed Hastings"
+  },
+  "Marc Randolph": {
+    "chunk_ids": [
+      "chunk-fbf1ce06381029fb21763401cae919a9"
+    ],
+    "count": 1,
+    "create_time": 1762404963,
+    "update_time": 1762404963,
+    "_id": "Marc Randolph"
+  },
+  "House of Cards": {
+    "chunk_ids": [
+      "chunk-fbf1ce06381029fb21763401cae919a9"
+    ],
+    "count": 1,
+    "create_time": 1762404963,
+    "update_time": 1762404963,
+    "_id": "House of Cards"
+  },
+  "Netflix": {
+    "chunk_ids": [
+      "chunk-fbf1ce06381029fb21763401cae919a9"
+    ],
+    "count": 1,
+    "create_time": 1762404963,
+    "update_time": 1762404963,
+    "_id": "Netflix"
+  },
+  "RAG System": {
+    "chunk_ids": [
+      "chunk-fbf1ce06381029fb21763401cae919a9"
+    ],
+    "count": 1,
+    "create_time": 1762404963,
+    "update_time": 1762404963,
+    "_id": "RAG System"
+  },
+  "Knowledge Graph": {
+    "chunk_ids": [
+      "chunk-fbf1ce06381029fb21763401cae919a9"
+    ],
+    "count": 1,
+    "create_time": 1762404963,
+    "update_time": 1762404963,
+    "_id": "Knowledge Graph"
+  },
+  "Custom Reranking Function": {
+    "chunk_ids": [
+      "chunk-fbf1ce06381029fb21763401cae919a9"
+    ],
+    "count": 1,
+    "create_time": 1762404963,
+    "update_time": 1762404963,
+    "_id": "Custom Reranking Function"
+  },
+  "RERANGAN": {
+    "chunk_ids": [
+      "chunk-fbf1ce06381029fb21763401cae919a9"
+    ],
+    "count": 1,
+    "create_time": 1762404963,
+    "update_time": 1762404963,
+    "_id": "RERANGAN"
+  },
+  "ENSURE": {
+    "chunk_ids": [
+      "chunk-fbf1ce06381029fb21763401cae919a9"
+    ],
+    "count": 1,
+    "create_time": 1762404963,
+    "update_time": 1762404963,
+    "_id": "ENSURE"
+  },
+  "Normalization": {
+    "chunk_ids": [
+      "chunk-fbf1ce06381029fb21763401cae919a9"
+    ],
+    "count": 1,
+    "create_time": 1762404963,
+    "update_time": 1762404963,
+    "_id": "Normalization"
+  },
+  "Aggregation": {
+    "chunk_ids": [
+      "chunk-fbf1ce06381029fb21763401cae919a9"
+    ],
+    "count": 1,
+    "create_time": 1762404963,
+    "update_time": 1762404963,
+    "_id": "Aggregation"
+  }
+}

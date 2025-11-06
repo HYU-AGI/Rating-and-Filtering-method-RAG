@@ -1,0 +1,41 @@
+{
+  "doc-78e6bda563e6bcdf7169e52a9bcb7c75": {
+    "entity_names": [
+      "fast",
+      "local",
+      "document",
+      "knowledge graphs",
+      "LLM",
+      "simple",
+      "graph-based retrieval",
+      "embedding models",
+      "RAG",
+      "OpenAI API",
+      "LightRAG"
+    ],
+    "count": 11,
+    "create_time": 1762404563,
+    "update_time": 1762404563,
+    "_id": "doc-78e6bda563e6bcdf7169e52a9bcb7c75"
+  },
+  "doc-fbf1ce06381029fb21763401cae919a9": {
+    "entity_names": [
+      "House of Cards",
+      "Reed Hastings",
+      "Normalization",
+      "Custom Reranking Function",
+      "RERANGAN",
+      "Netflix",
+      "Marc Randolph",
+      "ENSURE",
+      "RAG System",
+      "LightRAG",
+      "Aggregation",
+      "Knowledge Graph"
+    ],
+    "count": 12,
+    "create_time": 1762404963,
+    "update_time": 1762404963,
+    "_id": "doc-fbf1ce06381029fb21763401cae919a9"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "doc-78e6bda563e6bcdf7169e52a9bcb7c75": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-78e6bda563e6bcdf7169e52a9bcb7c75"
+    ],
+    "content_summary": "LightRAG is a fast and simple RAG system.\n        It efficiently processes documents using graph-based retrieval.\n        It supports various LLMs and embedding models.\n        You can run it locally without OpenAI API.\n        The system uses knowle...",
+    "content_length": 291,
+    "created_at": "2025-11-06T04:48:56.979840+00:00",
+    "updated_at": "2025-11-06T04:49:23.987298+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20251106_044856_2bc1ce5a",
+    "metadata": {
+      "processing_start_time": 1762404536,
+      "processing_end_time": 1762404563
+    }
+  },
+  "doc-fbf1ce06381029fb21763401cae919a9": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-fbf1ce06381029fb21763401cae919a9"
+    ],
+    "content_summary": "LightRAG is a fast and simple RAG system.\nIt efficiently processes documents using graph-based retrieval.\nIt supports various LLMs and embedding models.\nYou can run it locally without an OpenAI API.\nThe system uses knowledge graphs to enhance retriev...",
+    "content_length": 494,
+    "created_at": "2025-11-06T04:55:21.129070+00:00",
+    "updated_at": "2025-11-06T04:56:03.483418+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20251106_045521_ddd1c313",
+    "metadata": {
+      "processing_start_time": 1762404921,
+      "processing_end_time": 1762404963
+    }
+  }
+}

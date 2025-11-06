@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d13" for="edge" attr.name="truncate" attr.type="string" />
+  <key id="d12" for="edge" attr.name="created_at" attr.type="long" />
+  <key id="d11" for="edge" attr.name="file_path" attr.type="string" />
+  <key id="d10" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d9" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d8" for="edge" attr.name="description" attr.type="string" />
+  <key id="d7" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d6" for="node" attr.name="truncate" attr.type="string" />
+  <key id="d5" for="node" attr.name="created_at" attr.type="long" />
+  <key id="d4" for="node" attr.name="file_path" attr.type="string" />
+  <key id="d3" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d2" for="node" attr.name="description" attr.type="string" />
+  <key id="d1" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_id" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="LightRAG">
+      <data key="d0">LightRAG</data>
+      <data key="d1">artifact</data>
+      <data key="d2">LightRAG is described as a fast and simple RAG system that processes documents using graph-based retrieval.&lt;SEP&gt;LightRAG is described as a fast and simple Retrieval-Augmented Generation (RAG) system designed for efficient document processing and retrieval.</data>
+      <data key="d3">chunk-78e6bda563e6bcdf7169e52a9bcb7c75&lt;SEP&gt;chunk-fbf1ce06381029fb21763401cae919a9</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762404963</data>
+      <data key="d6" />
+    </node>
+    <node id="fast">
+      <data key="d0">fast</data>
+      <data key="d1">property</data>
+      <data key="d2">Fast is described as a property of LightRAG.</data>
+      <data key="d3">chunk-78e6bda563e6bcdf7169e52a9bcb7c75</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762404563</data>
+      <data key="d6" />
+    </node>
+    <node id="simple">
+      <data key="d0">simple</data>
+      <data key="d1">property</data>
+      <data key="d2">Simple is described as a property of LightRAG.</data>
+      <data key="d3">chunk-78e6bda563e6bcdf7169e52a9bcb7c75</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762404563</data>
+      <data key="d6" />
+    </node>
+    <node id="RAG">
+      <data key="d0">RAG</data>
+      <data key="d1">concept</data>
+      <data key="d2">RAG stands for Retrieval-Augmented Generation.</data>
+      <data key="d3">chunk-78e6bda563e6bcdf7169e52a9bcb7c75</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762404563</data>
+      <data key="d6" />
+    </node>
+    <node id="document">
+      <data key="d0">document</data>
+      <data key="d1">object</data>
+      <data key="d2">Documents are mentioned as objects that LightRAG processes.</data>
+      <data key="d3">chunk-78e6bda563e6bcdf7169e52a9bcb7c75</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762404563</data>
+      <data key="d6" />
+    </node>
+    <node id="graph-based retrieval">
+      <data key="d0">graph-based retrieval</data>
+      <data key="d1">technique</data>
+      <data key="d2">Graph-based retrieval is described as a technique used by LightRAG.</data>
+      <data key="d3">chunk-78e6bda563e6bcdf7169e52a9bcb7c75</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762404563</data>
+      <data key="d6" />
+    </node>
+    <node id="LLM">
+      <data key="d0">LLM</data>
+      <data key="d1">technology</data>
+      <data key="d2">LLM is mentioned as a model used with LightRAG.</data>
+      <data key="d3">chunk-78e6bda563e6bcdf7169e52a9bcb7c75</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762404563</data>
+      <data key="d6" />
+    </node>
+    <node id="embedding models">
+      <data key="d0">embedding models</data>
+      <data key="d1">software</data>
+      <data key="d2">Embedding models are mentioned as models used with LightRAG.</data>
+      <data key="d3">chunk-78e6bda563e6bcdf7169e52a9bcb7c75</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762404563</data>
+      <data key="d6" />
+    </node>
+    <node id="local">
+      <data key="d0">local</data>
+      <data key="d1">environmentalcondition</data>
+      <data key="d2">Local is mentioned as an environmental condition where LightRAG can be run.</data>
+      <data key="d3">chunk-78e6bda563e6bcdf7169e52a9bcb7c75</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762404563</data>
+      <data key="d6" />
+    </node>
+    <node id="OpenAI API">
+      <data key="d0">OpenAI API</data>
+      <data key="d1">externalservice</data>
+      <data key="d2">OpenAI API is mentioned as an external service required for running LightRAG.</data>
+      <data key="d3">chunk-78e6bda563e6bcdf7169e52a9bcb7c75</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762404563</data>
+      <data key="d6" />
+    </node>
+    <node id="knowledge graphs">
+      <data key="d0">knowledge graphs</data>
+      <data key="d1">tool</data>
+      <data key="d2">Knowledge graphs are mentioned as tools enhancing the accuracy of retrieval in LightRAG.</data>
+      <data key="d3">chunk-78e6bda563e6bcdf7169e52a9bcb7c75</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762404563</data>
+      <data key="d6" />
+    </node>
+    <node id="Reed Hastings">
+      <data key="d0">Reed Hastings</data>
+      <data key="d1">person</data>
+      <data key="d2">Reed Hastings is a co-founder of Netflix.</data>
+      <data key="d3">chunk-fbf1ce06381029fb21763401cae919a9</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762404963</data>
+      <data key="d6" />
+    </node>
+    <node id="Marc Randolph">
+      <data key="d0">Marc Randolph</data>
+      <data key="d1">person</data>
+      <data key="d2">Marc Randolph is another co-founder of Netflix.</data>
+      <data key="d3">chunk-fbf1ce06381029fb21763401cae919a9</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762404963</data>
+      <data key="d6" />
+    </node>
+    <node id="House of Cards">
+      <data key="d0">House of Cards</data>
+      <data key="d1">concept</data>
+      <data key="d2">"House of Cards" is the first major original series produced by Netflix.</data>
+      <data key="d3">chunk-fbf1ce06381029fb21763401cae919a9</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762404963</data>
+      <data key="d6" />
+    </node>
+    <node id="Netflix">
+      <data key="d0">Netflix</data>
+      <data key="d1">organization</data>
+      <data key="d2">Netflix is the corporation founded by Reed Hastings and Marc Randolph, known for introducing streaming services in 2007.</data>
+      <data key="d3">chunk-fbf1ce06381029fb21763401cae919a9</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762404963</data>
+      <data key="d6" />
+    </node>
+    <node id="RAG System">
+      <data key="d0">RAG System</data>
+      <data key="d1">method</data>
+      <data key="d2">RAG stands for Retrieval-Augmented Generation, describing how LightRAG integrates with existing LLMs and embedding models for improved data retrieval.</data>
+      <data key="d3">chunk-fbf1ce06381029fb21763401cae919a9</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762404963</data>
+      <data key="d6" />
+    </node>
+    <node id="Knowledge Graph">
+      <data key="d0">Knowledge Graph</data>
+      <data key="d1">datastructure</data>
+      <data key="d2">Knowledge graphs are utilized by LightRAG to enhance the accuracy of retrieval operations.</data>
+      <data key="d3">chunk-fbf1ce06381029fb21763401cae919a9</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762404963</data>
+      <data key="d6" />
+    </node>
+    <node id="Custom Reranking Function">
+      <data key="d0">Custom Reranking Function</data>
+      <data key="d1">functionality</data>
+      <data key="d2">Custom reranking functions allow for advanced filtering capabilities in the system.</data>
+      <data key="d3">chunk-fbf1ce06381029fb21763401cae919a9</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762404963</data>
+      <data key="d6" />
+    </node>
+    <node id="RERANGAN">
+      <data key="d0">RERANGAN</data>
+      <data key="d1">method</data>
+      <data key="d2">RERANGAN stands for Retrival-Augmented ENSure-and-Normalized Aggregation, emphasizing its role in enhancing data retrieval accuracy.</data>
+      <data key="d3">chunk-fbf1ce06381029fb21763401cae919a9</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762404963</data>
+      <data key="d6" />
+    </node>
+    <node id="ENSURE">
+      <data key="d0">ENSURE</data>
+      <data key="d1">method</data>
+      <data key="d2">ENSURE stands for Efficient Normalized Aggregation Engine, highlighting its function in normalization and aggregation.&lt;SEP&gt;ENSURE is a specialized engine designed to streamline the normalization and aggregation phases of data processing.</data>
+      <data key="d3">chunk-fbf1ce06381029fb21763401cae919a9</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762404963</data>
+      <data key="d6" />
+    </node>
+    <node id="Normalization">
+      <data key="d0">Normalization</data>
+      <data key="d1">process</data>
+      <data key="d2">Normalization involves transforming raw data into a standardized form for easier analysis and comparison.</data>
+      <data key="d3">chunk-fbf1ce06381029fb21763401cae919a9</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762404963</data>
+      <data key="d6" />
+    </node>
+    <node id="Aggregation">
+      <data key="d0">Aggregation</data>
+      <data key="d1">process</data>
+      <data key="d2">Aggregation combines individual pieces of data to create a summary or overview of the dataset.</data>
+      <data key="d3">chunk-fbf1ce06381029fb21763401cae919a9</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1762404963</data>
+      <data key="d6" />
+    </node>
+    <edge source="LightRAG" target="fast">
+      <data key="d7">1.0</data>
+      <data key="d8">LightRAG is claimed to improve processing efficiency through faster speeds.</data>
+      <data key="d9">performance improvement</data>
+      <data key="d10">chunk-78e6bda563e6bcdf7169e52a9bcb7c75</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1762404563</data>
+      <data key="d13" />
+    </edge>
+    <edge source="LightRAG" target="simple">
+      <data key="d7">1.0</data>
+      <data key="d8">LightRAG is described as having a simpler architecture compared to others.</data>
+      <data key="d9">architecture</data>
+      <data key="d10">chunk-78e6bda563e6bcdf7169e52a9bcb7c75</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1762404563</data>
+      <data key="d13" />
+    </edge>
+    <edge source="LightRAG" target="RAG">
+      <data key="d7">1.0</data>
+      <data key="d8">LightRAG is classified as a Retrieval-Augmented Generation system.</data>
+      <data key="d9">system classification</data>
+      <data key="d10">chunk-78e6bda563e6bcdf7169e52a9bcb7c75</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1762404563</data>
+      <data key="d13" />
+    </edge>
+    <edge source="LightRAG" target="document">
+      <data key="d7">1.0</data>
+      <data key="d8">LightRAG is capable of processing documents efficiently.</data>
+      <data key="d9">processing capability</data>
+      <data key="d10">chunk-78e6bda563e6bcdf7169e52a9bcb7c75</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1762404563</data>
+      <data key="d13" />
+    </edge>
+    <edge source="LightRAG" target="graph-based retrieval">
+      <data key="d7">1.0</data>
+      <data key="d8">LightRAG utilizes graph-based retrieval techniques.</data>
+      <data key="d9">technique application</data>
+      <data key="d10">chunk-78e6bda563e6bcdf7169e52a9bcb7c75</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1762404563</data>
+      <data key="d13" />
+    </edge>
+  </graph>
+</graphml>

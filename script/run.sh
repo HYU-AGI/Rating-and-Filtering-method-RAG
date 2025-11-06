@@ -1,0 +1,1 @@
+python ./src/run.py --file ./data/sample.txt --rouge_weight 0.6 --bert_weight 0.4

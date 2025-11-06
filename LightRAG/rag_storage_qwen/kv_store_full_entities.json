@@ -1,0 +1,52 @@
+{
+  "doc-78e6bda563e6bcdf7169e52a9bcb7c75": {
+    "entity_names": [
+      "Knowledge Graph",
+      "Claude",
+      "embedding model",
+      "LLM",
+      "LightRAG",
+      "knowledge graph",
+      "RAG",
+      "OpenAI"
+    ],
+    "count": 8,
+    "create_time": 1762354330,
+    "update_time": 1762354330,
+    "_id": "doc-78e6bda563e6bcdf7169e52a9bcb7c75"
+  },
+  "doc-20d582a74a0d8914e4037704eee336f5": {
+    "entity_names": [
+      "Graph-Based Retrieval",
+      "RAG System",
+      "Simple",
+      "Custom Reranking Functions",
+      "RER",
+      "LightRAG",
+      "Relation",
+      "Fast",
+      "Local Execution",
+      "Knowledge Graph"
+    ],
+    "count": 10,
+    "create_time": 1762402248,
+    "update_time": 1762402248,
+    "_id": "doc-20d582a74a0d8914e4037704eee336f5"
+  },
+  "doc-d3c0a2284c1ce07fed6ca78076a2e7bc": {
+    "entity_names": [
+      "Buzz Aldrin",
+      "Command Module Columbia",
+      "Apollo 11 Mission",
+      "Tranquility Base",
+      "July 20, 1969",
+      "July 16, 1969",
+      "Neil Armstrong",
+      "Michael Collins"
+    ],
+    "count": 8,
+    "create_time": 1762403317,
+    "update_time": 1762403317,
+    "_id": "doc-d3c0a2284c1ce07fed6ca78076a2e7bc"
+  }
+}

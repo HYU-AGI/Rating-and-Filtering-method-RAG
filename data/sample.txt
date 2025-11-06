@@ -1,0 +1,9 @@
+LightRAG is a fast and simple RAG system.
+It efficiently processes documents using graph-based retrieval.
+It supports various LLMs and embedding models.
+You can run it locally without an OpenAI API.
+The system uses knowledge graphs to enhance retrieval accuracy.
+The system also supports custom reranking functions for advanced filtering.
+Netflix was founded by Reed Hastings and Marc Randolph.
+Netflix introduced streaming in 2007.
+"House of Cards" was the first major original series in 2013.

@@ -1,0 +1,155 @@
+{
+  "LightRAG<SEP>RAG": {
+    "chunk_ids": [
+      "chunk-78e6bda563e6bcdf7169e52a9bcb7c75"
+    ],
+    "count": 1,
+    "create_time": 1762354329,
+    "update_time": 1762354329,
+    "_id": "LightRAG<SEP>RAG"
+  },
+  "Claude<SEP>OpenAI": {
+    "chunk_ids": [
+      "chunk-78e6bda563e6bcdf7169e52a9bcb7c75"
+    ],
+    "count": 1,
+    "create_time": 1762354329,
+    "update_time": 1762354329,
+    "_id": "Claude<SEP>OpenAI"
+  },
+  "LLM<SEP>LightRAG": {
+    "chunk_ids": [
+      "chunk-78e6bda563e6bcdf7169e52a9bcb7c75"
+    ],
+    "count": 1,
+    "create_time": 1762354329,
+    "update_time": 1762354329,
+    "_id": "LLM<SEP>LightRAG"
+  },
+  "LightRAG<SEP>embedding model": {
+    "chunk_ids": [
+      "chunk-78e6bda563e6bcdf7169e52a9bcb7c75"
+    ],
+    "count": 1,
+    "create_time": 1762354329,
+    "update_time": 1762354329,
+    "_id": "LightRAG<SEP>embedding model"
+  },
+  "LLM<SEP>OpenAI": {
+    "chunk_ids": [
+      "chunk-78e6bda563e6bcdf7169e52a9bcb7c75"
+    ],
+    "count": 1,
+    "create_time": 1762354329,
+    "update_time": 1762354329,
+    "_id": "LLM<SEP>OpenAI"
+  },
+  "LightRAG<SEP>knowledge graph": {
+    "chunk_ids": [
+      "chunk-78e6bda563e6bcdf7169e52a9bcb7c75"
+    ],
+    "count": 1,
+    "create_time": 1762354330,
+    "update_time": 1762354330,
+    "_id": "LightRAG<SEP>knowledge graph"
+  },
+  "LightRAG<SEP>RAG System": {
+    "chunk_ids": [
+      "chunk-20d582a74a0d8914e4037704eee336f5"
+    ],
+    "count": 1,
+    "create_time": 1762402248,
+    "update_time": 1762402248,
+    "_id": "LightRAG<SEP>RAG System"
+  },
+  "Fast<SEP>LightRAG": {
+    "chunk_ids": [
+      "chunk-20d582a74a0d8914e4037704eee336f5"
+    ],
+    "count": 1,
+    "create_time": 1762402248,
+    "update_time": 1762402248,
+    "_id": "Fast<SEP>LightRAG"
+  },
+  "LightRAG<SEP>Simple": {
+    "chunk_ids": [
+      "chunk-20d582a74a0d8914e4037704eee336f5"
+    ],
+    "count": 1,
+    "create_time": 1762402248,
+    "update_time": 1762402248,
+    "_id": "LightRAG<SEP>Simple"
+  },
+  "LightRAG<SEP>RER": {
+    "chunk_ids": [
+      "chunk-20d582a74a0d8914e4037704eee336f5"
+    ],
+    "count": 1,
+    "create_time": 1762402248,
+    "update_time": 1762402248,
+    "_id": "LightRAG<SEP>RER"
+  },
+  "Knowledge Graph<SEP>LightRAG": {
+    "chunk_ids": [
+      "chunk-20d582a74a0d8914e4037704eee336f5"
+    ],
+    "count": 1,
+    "create_time": 1762402248,
+    "update_time": 1762402248,
+    "_id": "Knowledge Graph<SEP>LightRAG"
+  },
+  "Custom Reranking Functions<SEP>LightRAG": {
+    "chunk_ids": [
+      "chunk-20d582a74a0d8914e4037704eee336f5"
+    ],
+    "count": 1,
+    "create_time": 1762402248,
+    "update_time": 1762402248,
+    "_id": "Custom Reranking Functions<SEP>LightRAG"
+  },
+  "Apollo 11 Mission<SEP>July 16, 1969": {
+    "chunk_ids": [
+      "chunk-d3c0a2284c1ce07fed6ca78076a2e7bc"
+    ],
+    "count": 1,
+    "create_time": 1762403317,
+    "update_time": 1762403317,
+    "_id": "Apollo 11 Mission<SEP>July 16, 1969"
+  },
+  "Command Module Columbia<SEP>Neil Armstrong": {
+    "chunk_ids": [
+      "chunk-d3c0a2284c1ce07fed6ca78076a2e7bc"
+    ],
+    "count": 1,
+    "create_time": 1762403317,
+    "update_time": 1762403317,
+    "_id": "Command Module Columbia<SEP>Neil Armstrong"
+  },
+  "Apollo 11 Mission<SEP>July 20, 1969": {
+    "chunk_ids": [
+      "chunk-d3c0a2284c1ce07fed6ca78076a2e7bc"
+    ],
+    "count": 1,
+    "create_time": 1762403317,
+    "update_time": 1762403317,
+    "_id": "Apollo 11 Mission<SEP>July 20, 1969"
+  },
+  "Apollo 11 Mission<SEP>Tranquility Base": {
+    "chunk_ids": [
+      "chunk-d3c0a2284c1ce07fed6ca78076a2e7bc"
+    ],
+    "count": 1,
+    "create_time": 1762403317,
+    "update_time": 1762403317,
+    "_id": "Apollo 11 Mission<SEP>Tranquility Base"
+  },
+  "Apollo 11 Mission<SEP>Command Module Columbia": {
+    "chunk_ids": [
+      "chunk-d3c0a2284c1ce07fed6ca78076a2e7bc"
+    ],
+    "count": 1,
+    "create_time": 1762403317,
+    "update_time": 1762403317,
+    "_id": "Apollo 11 Mission<SEP>Command Module Columbia"
+  }
+}
