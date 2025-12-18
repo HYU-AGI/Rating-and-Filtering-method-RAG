@@ -1,5 +1,5 @@
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "5"  
+# os.environ["CUDA_VISIBLE_DEVICES"] = "5"  # Moved to command line argument
 import asyncio
 import torch
 
@@ -183,4 +183,18 @@ async def main():
 
 
 if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser(description="LightRAG Quick Local Example")
+    parser.add_argument(
+        "--cuda_device",
+        type=str,
+        default=None,
+        help="CUDA device to use (e.g., '0' or '0,1'). If not specified, uses system default."
+    )
+    args = parser.parse_args()
+    
+    # Set CUDA device if specified
+    if args.cuda_device is not None:
+        os.environ["CUDA_VISIBLE_DEVICES"] = args.cuda_device
+    
     asyncio.run(main())

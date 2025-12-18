@@ -1,5 +1,5 @@
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "5"  
+# os.environ["CUDA_VISIBLE_DEVICES"] = "5"  # Moved to command line argument
 import asyncio
 import torch
 import argparse # 1. argparse 모듈 임포트
@@ -208,7 +208,17 @@ if __name__ == "__main__":
         default=0.7, # 기본값 0.7
         help="Weight for BERTScore (default: 0.7)"
     )
+    parser.add_argument(
+        "--cuda_device",
+        type=str,
+        default=None,
+        help="CUDA device to use (e.g., '0' or '0,1'). If not specified, uses system default."
+    )
     args = parser.parse_args()
+    
+    # Set CUDA device if specified
+    if args.cuda_device is not None:
+        os.environ["CUDA_VISIBLE_DEVICES"] = args.cuda_device
     
     # 5. 파싱된 가중치로 Reranker 인스턴스 생성
     reranker = CustomReranker(
