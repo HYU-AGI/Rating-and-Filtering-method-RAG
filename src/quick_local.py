@@ -27,11 +27,11 @@ if not os.path.exists(WORKING_DIR):
 
 # --- 1. 사용자 정의 Reranker 로직 구현 (Async/GPU 버전) ---
 
-W_ROUGE = 0.3
-W_BERTSCORE = 0.7
+# W_ROUGE = 0.3  # Moved to command line argument
+# W_BERTSCORE = 0.7  # Moved to command line argument
 rouge_scorer_instance = rouge_scorer.RougeScorer(['rougeL'], use_stemmer=True)
 
-def reranker_sync_job(query: str, documents: list[str]) -> list[dict]: # 반환 타입 힌트 변경
+def reranker_sync_job(query: str, documents: list[str], rouge_weight: float, bert_weight: float) -> list[dict]: # 반환 타입 힌트 변경
     """[동기 함수] ROUGE + BERTScore 계산을 수행 (별도 스레드에서 실행됨)"""
     
     print(f"\n[Custom Reranker (Sync Job)] ROUGE+BERTScore로 {len(documents)}개 청크 재정렬...")
@@ -65,7 +65,7 @@ def reranker_sync_job(query: str, documents: list[str]) -> list[dict]: # 반환 
     for i, content in enumerate(chunk_contents): 
         rouge_f1 = rouge_scores_f1[i]
         bert_f1 = bert_scores_f1[i]
-        total_score = (W_ROUGE * rouge_f1) + (W_BERTSCORE * bert_f1)
+        total_score = (rouge_weight * rouge_f1) + (bert_weight * bert_f1)
         
         print(f"  Chunk {i}: ROUGE-L={rouge_f1:.4f}, BERT-F1={bert_f1:.4f} -> Total={total_score:.4f}")
         scored_chunks.append((total_score, content))
@@ -80,13 +80,13 @@ def reranker_sync_job(query: str, documents: list[str]) -> list[dict]: # 반환 
     print("[Custom Reranker (Sync Job)] 정렬된 dict 리스트 반환 중...")
     return [{"content": content} for score, content in scored_chunks]
 
-async def my_custom_reranker(query: str, documents: list[str], **kwargs) -> list[dict]:
+async def my_custom_reranker(query: str, documents: list[str], rouge_weight: float, bert_weight: float, **kwargs) -> list[dict]:
     """[Async 래퍼] LightRAG가 호출할 비동기 Reranker 함수"""
     # reranker_sync_job이 이제 list[dict]를 반환합니다.
-    return await asyncio.to_thread(reranker_sync_job, query, documents)
+    return await asyncio.to_thread(reranker_sync_job, query, documents, rouge_weight, bert_weight)
 
 
-async def initialize_rag():
+async def initialize_rag(rouge_weight: float, bert_weight: float):
     """Qwen + Sentence-BERT 기반 LightRAG 인스턴스 초기화 (GPU)"""
 
     # 1) 임베딩 모델 설정
@@ -114,8 +114,8 @@ async def initialize_rag():
             )
         ),
         
-        # Reranker 함수 주입
-        rerank_model_func=my_custom_reranker,
+        # Reranker 함수 주입 (가중치를 partial로 전달)
+        rerank_model_func=lambda query, documents, **kwargs: my_custom_reranker(query, documents, rouge_weight, bert_weight, **kwargs),
 
         # LLM이 GPU를 사용하도록 "auto" 설정
         llm_model_kwargs={"device_map": "auto"},
@@ -130,11 +130,11 @@ async def initialize_rag():
     return rag
 
 
-async def main():
+async def main(rouge_weight: float, bert_weight: float):
     try:
         # 0) RAG 시스템 초기화
         print("Initializing LightRAG...")
-        rag = await initialize_rag()
+        rag = await initialize_rag(rouge_weight, bert_weight)
 
         # 1) 샘플 문서 삽입 (light rag 예시)
         sample_text = """
@@ -198,3 +198,19 @@ if __name__ == "__main__":
         os.environ["CUDA_VISIBLE_DEVICES"] = args.cuda_device
     
     asyncio.run(main())
+    parser = argparse.ArgumentParser(description="LightRAG Quick Local Example with Custom Weights")
+    parser.add_argument(
+        "--rouge_weight",
+        type=float,
+        default=0.3,
+        help="Weight for ROUGE-L score (default: 0.3)"
+    )
+    parser.add_argument(
+        "--bert_weight",
+        type=float,
+        default=0.7,
+        help="Weight for BERTScore (default: 0.7)"
+    )
+    args = parser.parse_args()
+    
+    asyncio.run(main(args.rouge_weight, args.bert_weight))
