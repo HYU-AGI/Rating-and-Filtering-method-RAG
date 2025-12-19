@@ -1,7 +1,3 @@
-#conda create -n ragvenv python=3.10 -y
-#conda activate ragvenv
-#cd LightRAG
-#pip install -e .
 torch
 transformers
 sentence-transformers
